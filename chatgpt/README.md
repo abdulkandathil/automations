@@ -12,6 +12,12 @@ Pre-requisite:
 pip3 install requests
 ```
 
+- Export variable
+
+```bash
+export OPENAI_API_KEY=<openai api key>
+```
+
 ## Usage
 
 syntax:
