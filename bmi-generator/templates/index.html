@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">BMI Calculator</h1>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <form action="/calculate" method="POST">
+                    <div class="form-group">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="text" class="form-control" name="weight" id="weight" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="height">Height (m):</label>
+                        <input type="text" class="form-control" name="height" id="height" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Calculate BMI</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
